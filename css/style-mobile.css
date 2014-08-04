@@ -71,7 +71,7 @@
 /*********************************************************************************/
 
 	#header {
-		height: 2.5em;
+		height: 3.5em;
 		line-height: 2.5em;
 	}
 
@@ -86,10 +86,13 @@
 		top: 0;
 		height: 2.5em;
 		line-height: 2.5em;
+		width:100%;
 	}
 	
 		#logo a {
 			font-size: 1em;
+			width:100%;
+			text-align:center;
 		}
 	
 	#nav {
@@ -152,3 +155,40 @@
 				background-size: contain;
 				opacity: 0.65;
 			}
+
+/*********************************************************************************/
+/* Changes                                                                       */
+/*********************************************************************************/
+
+.button{display:none;}
+
+#content #inner{
+	width:90%;
+	margin:0 5%;
+}
+#service #title_txt{
+	font-size:50px;
+}
+#service #img_all img{
+	height:100%;
+	width:auto;
+}
+#content #inner #left{
+	width:100%;
+	text-align:center;
+}
+#content #inner #left h1, #content #inner #left .logo, #content #inner #right h1, #content #inner #right p{
+	width:300px;
+	float:none;
+	margin: 0 auto 20px;
+}
+#content #inner #right{
+	width:100%;
+	margin:20px 0 0;
+}
+#content #inner #right h1{
+	text-align:center;
+}
+#content #inner #right p{
+	text-align:justify;
+}

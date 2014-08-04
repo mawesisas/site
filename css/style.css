@@ -1052,7 +1052,12 @@
 	
 		#logo a {
 			font-size: 1.25em;
+			float:left;
+			height:100%;
 		}
+			#logo a img{
+				padding:5px 0;
+			}	
 	
 	#nav {
 		position: absolute;
@@ -1177,19 +1182,27 @@
 		color: rgba(185,186,187,0.5);
 		overflow: hidden;
 	}
+	.service_footer{
+		float:left;
+		width:100%;
+		background: #fff !important;
+		color: #000 !important;
+		overflow: hidden;
+		border-top:1px solid #ccc;
+	}
+	.service_footer a:hover{color:#000;}
+
 	footer img{
 		float:left;
 		width:100%;
 	}
 
-		#footer a {
-			color: #999;
-			color: rgba(185,186,187,0.5);
+		#footer a{
+			color: #111;
 		}
 
 			#footer a:hover {
-				color: #bbb;
-				color: rgba(185,186,187,1.0);
+				color: #fff;
 			}
 	
 		#footer .actions {
@@ -1221,6 +1234,7 @@
 		
 			#footer .menu li {
 				font-size: 0.9em;
+				color: #111;
 			}
 
 /*********************************************************************************/
@@ -1424,7 +1438,7 @@
 #content{
 	float:left;
 	width:100%;
-	margin-top:40px;
+	margin:40px 0 40px;
 }
 #content #inner{
 	width:1000px;
@@ -1445,4 +1459,27 @@
 	float:left;
 	margin-left:5%;
 	width:65%;
+}
+
+#content #inner #right p{
+	font-size:13px;
+	line-height:16px; 
+}
+
+#content #inner h1{
+	margin-bottom:20px;
+}
+
+@media all and (min-width: 640px) and (max-width: 1000px){
+	#content #inner{
+		width:90%;
+		margin:0 5%;
+	}
+	#service #title_txt{
+		font-size:50px;
+	}
+	#service #img_all img{
+		height:100%;
+		width:auto;
+	}
 }
