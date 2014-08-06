@@ -262,10 +262,7 @@
 				display: block;
 			}
 		
-			form input[type="text"],
-			form input[type="password"],
-			form select,
-			form textarea {
+			form input[type=text], form input[type=password], form select, form textarea {
 				display: block;
 				width: 100%;
 				padding: 0.75em;
@@ -288,22 +285,14 @@
 				transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 			}
 
-				form input[type="text"]:hover,
-				form input[type="password"]:hover,
-				form select:hover,
-				form textarea:hover {
+				form input[type=text]:hover, form input[type=password]:hover, form select:hover, form textarea:hover {
 				}
 
-				form input[type="text"]:focus,
-				form input[type="password"]:focus,
-				form select:focus,
-				form textarea:focus {
+				form input[type=text]:focus, form input[type=password]:focus, form select:focus, form textarea:focus {
 					border-color: #9ac8e9;
 				}
 
-			form input[type="text"],
-			form input[type="password"],
-			form select {
+			form input[type=text], form input[type=password], form select {
 				line-height: 1em;
 			}
 				
@@ -537,7 +526,7 @@
 
 					.main.style2.right .content {
 						left: 65%;
-					}
+											}
 
 				.main.style2.inactive {
 				}
@@ -1086,6 +1075,15 @@
 					padding: 0 0.5em 0 0.5em;
 					outline: 0;
 				}
+
+nav li ul {
+   display:none;
+   position: absolute;
+   top:30px;
+}
+nav li:hover ul {
+   display: block;
+}				
 
 /*********************************************************************************/
 /* Intro                                                                         */
