@@ -16,6 +16,10 @@
 		letter-spacing: -1px;
 	}
 	
+	h3{
+		font-size:15px;
+	}
+
 	/* Box */
 
 		.box {
@@ -177,10 +181,11 @@
 	width:100%;
 	text-align:center;
 }
-#content #inner #left h1, #content #inner #left .logo, #content #inner #right h1, #content #inner #right p{
+#content #inner #left h1, #content #inner #left .logo, #content #inner #right h1, #content #inner #right p, #content #inner #right h3{
 	width:300px;
 	float:none;
 	margin: 0 auto 20px;
+	text-align:center;
 }
 #content #inner #right{
 	width:100%;

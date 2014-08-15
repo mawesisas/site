@@ -1458,6 +1458,9 @@ nav li:hover ul {
 	height:50px;
 	background-color:red;
 }
+#content #inner #left img{
+	max-width:100%;
+}
 #content #inner #right{
 	float:left;
 	margin-left:5%;
