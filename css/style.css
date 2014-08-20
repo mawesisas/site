@@ -518,7 +518,21 @@
 					transform: translateZ(0);
 				}
 			
-				.main.style2.left {
+				.wwd_titles{
+					position: absolute;
+					width: 50%;
+					left:0;
+				}
+				.wwd_titles .title{
+					float:left;
+					text-align:center;
+					margin-bottom:10px;
+					width:100%;
+				}
+				.wwd_titles .title a{
+					padding:6px 11px;
+					text-transform:uppercase;
+					text-decoration:none;
 				}
 
 					.main.style2.left .content {
@@ -1106,7 +1120,11 @@ nav li:hover ul {
 /*********************************************************************************/
 
 	#one {
-		background-color:#000;
+		background: url('../images/laptop_2.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
 
 /*********************************************************************************/
