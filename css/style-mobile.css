@@ -64,33 +64,52 @@
 				.main.style2 .tmp {
 					width: 100%;
 					height: 10em;
-					background-size: cover;
+					background-size: over;
+
 				}
 				.equipo{
-					min-width: 90%;
+					max-width: 100%;
+					margin-right: auto;
+					margin-left: auto;
 				}
 				.equipo img{
-					max-width: 30%;
+					width: 30%;
 				}
 				.equipo p{
 				text-align: justify;
-			     }
+                 }
+               
 			     .equipo h1{
 			     	text-align: center;
 			     	font-size: 14px;
 			     }
+			     .equipo .informacion{
+			     	max-width: 60%;
+			     	margin-right: auto;
+					margin-left: auto;
+			     }
+			     #two header{
+			     	font-size: 20px;
+			     	padding:1em;
+		            height: 2em;
+		           margin-top: -20%;
+			     }
 			  .wwd_titles {
-			  	min-width: 100%;
-			    margin-top: 20px;
-				position: static;
-				float: left;
+			  	min-width:150px;
+				position:relative;
+				margin-left: auto;
+				margin-right: auto;
+			
+			
 			  }
                .wwd_titles .title{
-               	max-width: 150px;
+               
                	font-size: 13px;
-               	padding: 3px 0;
+               	padding: 1px 0;
                text-align: center;
                 opacity: 0.9;
+               margin-top: 3%;
+               margin-bottom:5px;
                  }
               
                 .main.style2 .content{
@@ -152,6 +171,7 @@
 /*********************************************************************************/
 	
 	#footer {
+		margin-top: 0%;
 	}
 		
 		#footer .menu {

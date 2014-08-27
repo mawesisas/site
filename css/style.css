@@ -500,12 +500,13 @@
 				}
 		
 			.main.style2 {
-				padding: 10em 0 10em 0;
+				/*padding: 10em 0 10em 0;*/
 				overflow: hidden;
 			}
 			
 				.main.style2 .content {
 					position: relative;
+					float: left;
 					margin-left: 0%;
 					width: 15%;
 					opacity:0.80;
@@ -535,16 +536,16 @@
 				.wwd_titles{
 					position: absolute;
 					width: 30%;
-					left:30%;
-					top: 40%;
+					margin-top: 8.5%;
+					margin-left: 16%;
 				}
 				
 				.wwd_titles .title{
 					float: left;
-					margin-left: 30%;
+					margin-left: 0%;
 					text-align:center;
 					margin-bottom:10px;
-					width:270px;
+					width:100%;
 					height: auto;	
 					background: #000;
 					padding: 10px 0;
@@ -556,43 +557,7 @@
 					text-decoration:none;  
 
 				}
-				#contenedor{
-					width: 100%;
-					margin-top: 50px;
 				
-				}
-				.equipo{
-					position: relative;
-					float: left;
-					margin-left: 1.7%;
-					background-color: #fff;
-					opacity: 0.9;
-					max-width: 18%;
-
-				} 
-				.equipo img{
-					max-width: 60%;
-					display: block;
-					margin-left: auto;
-					margin-right: auto;
-				}
-				.equipo p{
-					float: left;
-					margin-left: 2%;
-					color: #000;
-					font-size: 13px;
-					text-align: justify;
-					font-style: normal;
-                    font-weight: normal;
-                    font-variant: normal;
-                    text-transform: none;
-                    line-height:15px;
-
-				}
-				.equipo h1{
-					color: #000;
-					text-align: center;
-				}
 		
 			.main.style3 {
 				text-align: center;
@@ -1169,15 +1134,54 @@ nav li:hover ul {
 
 	#two {
 		/*background: url('../images/bg.jpg');*/
+
 	}
 	#two header{
-		background-color: #fff;
-		opacity: 0.9;
+	   opacity: 0.9;
 		text-align:center;
-		margin-top: -20%;
+		padding:2em;
+		height: 5em;
+		margin-top: 2%;
+
     }
 	#two header h2{
-color: #000; 
+    color: #000; 
+    }
+
+	.equipo{
+	 position: relative;
+	 float: left;
+	 margin-left: 1.7%;
+	 background-color: #fff;
+	 opacity: 0.9;
+	 max-width: 18%;
+     padding: 0.2em, auto;
+     margin-top: 4%;
+    } 
+				
+	.equipo img{
+	 max-width: 60%;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	}
+				
+	.equipo p{
+	float: left;
+	color: #000;
+	font-size: 13px;
+	text-align: justify;
+	font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height:15px;
+     }
+				
+	.equipo h1{
+	color: #000;
+	text-align: center;
+	font-weight:bold;
 	}
 
 
@@ -1241,13 +1245,14 @@ color: #000;
 	
 	#footer {
 		position: relative;
-		height: 5em;
-		line-height: 5em;
+		height: 7em;
+		line-height: 7em;
 		margin: 0;
 		background: #000;
 		color: #999;
 		color: rgba(185,186,187,0.5);
 		overflow: hidden;
+		margin-top: 8.9%;
 	}
 	.service_footer{
 		float:left;
@@ -1276,8 +1281,8 @@ color: #000;
 			position: absolute;
 			left: 1em;
 			top: 0.25em;
-			height: 5em;
-			line-height: 5em;
+			height: 6.5em;
+			line-height: 6.5em;
 			margin: 0;
 
 		}
@@ -1296,8 +1301,8 @@ color: #000;
 			position: absolute;
 			right: 2em;
 			top: 0;
-			height: 5em;
-			line-height: 5em;
+			height: 6.5em;
+			line-height: 6.5em;
 			margin: 0;
 		}
 		
