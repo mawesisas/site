@@ -1141,7 +1141,7 @@ nav li:hover ul {
 		text-align:center;
 		padding:2em;
 		height: 5em;
-		margin-top: 2%;
+		margin-bottom:4%;
 
     }
 	#two header h2{
@@ -1151,34 +1151,31 @@ nav li:hover ul {
 	.equipo{
 	 position: relative;
 	 float: left;
-	 margin-left: 1.7%;
+	 margin: 0 1%;
 	 background-color: #fff;
 	 opacity: 0.9;
 	 max-width: 18%;
      padding: 0.2em, auto;
-     margin-top: 4%;
     } 
 				
 	.equipo img{
 	
-	 width: 120%;
+	 width: 100%;
 	 min-width: 85%;
 	 display: block;
 	 margin-left: auto;
 	 margin-right: auto;
 	}
 				
-	.equipo p{
-	float: left;
-	color: #000;
-	font-size: 13px;
-	text-align: justify;
-	font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height:15px;
-     }
+	.equipo .informacion .quote{
+		float:left;
+		width:90%;
+		margin:5%;
+		text-align:center;
+		color:#000;
+		font-size:13px;
+		line-height: 1;
+	}
 				
 	.equipo h1{
 	color: #000;
@@ -1254,7 +1251,7 @@ nav li:hover ul {
 		color: #999;
 		color: rgba(185,186,187,0.5);
 		overflow: hidden;
-		margin-top: 8.9%;
+		margin-top: 3%;
 	}
 	.service_footer{
 		float:left;
